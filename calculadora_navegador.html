@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+</html>
+<script>
+    function somar (numero1, numero2){
+        var resultadoSoma = '';
+        resultadoSoma = numero1 + numero2;
+        return resultadoSoma;
+    }
+    function subtrair (numero1, numero2){
+        var resultadoSoma = '';
+        resultadoSoma = numero1 - numero2;
+        return resultadoSoma;
+    }
+    function multiplicar (numero1, numero2){
+        var resultadoSoma = '';
+        resultadoSoma = numero1 * numero2;
+        return resultadoSoma;
+    }
+    function dividir (numero1, numero2){
+        var resultadoSoma = '';
+        resultadoSoma = numero1 / numero2;
+        return resultadoSoma;
+    }
+    
+    var querUsar = prompt('você quer usar a calculadora? (s // n)');
+
+    while(querUsar == 's'){
+
+        var operacao = prompt('qual operação você quer fazer? (somar, subtrair, multiplicar, dividir)');
+        var numeroUsuario1 = parseInt(prompt('me fale o primeiro número'));
+        var numeroUsuario2 = parseInt(prompt('me fale outro número'));
+
+        switch(operacao){
+            case 'somar':
+                alert('o resultado da soma foi: ' + somar(numeroUsuario1,numeroUsuario2));
+                break;
+            case 'subtrair':
+                alert('o resultado da subtração foi: ' + subtrair(numeroUsuario1,numeroUsuario2));
+                break;
+            case 'multiplicar':
+                alert('o resultado da multiplicação foi: ' + multiplicar(numeroUsuario1,numeroUsuario2));
+                break;
+            case 'dividir':
+                alert('o resultado da divisão foi: ' + dividir(numeroUsuario1,numeroUsuario2));
+                break;
+            default:
+                alert('fechando calculadora.');
+                break;
+
+        }
+        querUsar = prompt('você quer usar novamente a calculadora? (s // n)');
+    }
+    alert('obrigado por usar a calculadora !!');
+
+</script>
