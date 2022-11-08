@@ -1,6 +1,6 @@
 # Calculadora-usando-Prompt-e-Switch (Html + JavaScript)
 
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+![Badge em Desenvolvimento](https://img.shields.io/static/v1?label=<LABEL>&message=<Em Pausa>&color=<blue>)
 
 ![Um ícone de uma Calculadora com 6 botões](https://user-images.githubusercontent.com/105376328/192547392-b0182315-fd04-47f3-92c5-d295ea0562b8.png)
 
